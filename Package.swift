@@ -25,7 +25,7 @@ let package = Package(
 
         .binaryTarget(
             name: "DatabaseKit",
-            url: "https://ui.skunktest.work/Frameworks/DatabaseKit.xcframework", // Update with the URL or relative path to your .xcframework
+            url: "https://github.com/divya-ai/DatabaseKitDemo/tree/main/DatabaseKit.xcframework", // Update with the URL or relative path to your .xcframework
             checksum: "37dfab61d1bd1bd8edbd5585c7f73c557f6205fa182c15f3edc73ed5a53301c6" // Update with the checksum of your .xcframework
         )
     ]
