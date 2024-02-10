@@ -1,0 +1,6 @@
+framework module DatabaseKit {
+  umbrella header "DatabaseKit.h"
+
+  export *
+  module * { export * }
+}
