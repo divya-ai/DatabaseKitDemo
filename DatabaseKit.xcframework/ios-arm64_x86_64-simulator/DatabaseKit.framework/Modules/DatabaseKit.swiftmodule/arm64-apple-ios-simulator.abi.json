@@ -1,0 +1,3078 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatabaseKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "DatabaseKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DatabaseManager",
+        "printedName": "DatabaseManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DatabaseManager",
+                "printedName": "DatabaseKit.DatabaseManager",
+                "usr": "s:11DatabaseKit0A7ManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit0A7ManagerC6sharedACvpZ",
+            "mangledName": "$s11DatabaseKit0A7ManagerC6sharedACvpZ",
+            "moduleName": "DatabaseKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DatabaseManager",
+                    "printedName": "DatabaseKit.DatabaseManager",
+                    "usr": "s:11DatabaseKit0A7ManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit0A7ManagerC6sharedACvgZ",
+                "mangledName": "$s11DatabaseKit0A7ManagerC6sharedACvgZ",
+                "moduleName": "DatabaseKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "addObject",
+            "printedName": "addObject(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatabaseKit0A7ManagerC9addObjectyyxSo010RealmSwiftE0CRbzlF",
+            "mangledName": "$s11DatabaseKit0A7ManagerC9addObjectyyxSo010RealmSwiftE0CRbzlF",
+            "moduleName": "DatabaseKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Realm.RealmSwiftObject>",
+            "sugared_genericSig": "<T where T : Realm.RealmSwiftObject>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getObjectByID",
+            "printedName": "getObjectByID(_:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatabaseKit0A7ManagerC13getObjectByID_2idxSgxm_SStSo010RealmSwiftE0CRbzlF",
+            "mangledName": "$s11DatabaseKit0A7ManagerC13getObjectByID_2idxSgxm_SStSo010RealmSwiftE0CRbzlF",
+            "moduleName": "DatabaseKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Realm.RealmSwiftObject>",
+            "sugared_genericSig": "<T where T : Realm.RealmSwiftObject>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllObjects",
+            "printedName": "getAllObjects(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "RealmSwift.Results<τ_0_0>?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Results",
+                    "printedName": "RealmSwift.Results<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:10RealmSwift7ResultsV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatabaseKit0A7ManagerC13getAllObjectsy10RealmSwift7ResultsVyxGSgxmSo0gH6ObjectCRbzlF",
+            "mangledName": "$s11DatabaseKit0A7ManagerC13getAllObjectsy10RealmSwift7ResultsVyxGSgxmSo0gH6ObjectCRbzlF",
+            "moduleName": "DatabaseKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Realm.RealmSwiftObject>",
+            "sugared_genericSig": "<T where T : Realm.RealmSwiftObject>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeAllObjects",
+            "printedName": "removeAllObjects(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatabaseKit0A7ManagerC16removeAllObjectsyyxmSo16RealmSwiftObjectCRbzlF",
+            "mangledName": "$s11DatabaseKit0A7ManagerC16removeAllObjectsyyxmSo16RealmSwiftObjectCRbzlF",
+            "moduleName": "DatabaseKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Realm.RealmSwiftObject>",
+            "sugared_genericSig": "<T where T : Realm.RealmSwiftObject>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteAllObjects",
+            "printedName": "deleteAllObjects(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatabaseKit0A7ManagerC16deleteAllObjectsyyxmSo16RealmSwiftObjectCRbzlF",
+            "mangledName": "$s11DatabaseKit0A7ManagerC16deleteAllObjectsyyxmSo16RealmSwiftObjectCRbzlF",
+            "moduleName": "DatabaseKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Realm.RealmSwiftObject>",
+            "sugared_genericSig": "<T where T : Realm.RealmSwiftObject>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteObjects",
+            "printedName": "deleteObjects(_:where:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSPredicate",
+                "printedName": "Foundation.NSPredicate",
+                "usr": "c:objc(cs)NSPredicate"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatabaseKit0A7ManagerC13deleteObjects_5whereyxm_So11NSPredicateCtSo16RealmSwiftObjectCRbzlF",
+            "mangledName": "$s11DatabaseKit0A7ManagerC13deleteObjects_5whereyxm_So11NSPredicateCtSo16RealmSwiftObjectCRbzlF",
+            "moduleName": "DatabaseKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Realm.RealmSwiftObject>",
+            "sugared_genericSig": "<T where T : Realm.RealmSwiftObject>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deleteObjectByID",
+            "printedName": "deleteObjectByID(_:id:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DatabaseKit0A7ManagerC16deleteObjectByID_2idyxm_SStSo010RealmSwiftE0CRbzlF",
+            "mangledName": "$s11DatabaseKit0A7ManagerC16deleteObjectByID_2idyxm_SStSo010RealmSwiftE0CRbzlF",
+            "moduleName": "DatabaseKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : Realm.RealmSwiftObject>",
+            "sugared_genericSig": "<T where T : Realm.RealmSwiftObject>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DatabaseKit0A7ManagerC",
+        "mangledName": "$s11DatabaseKit0A7ManagerC",
+        "moduleName": "DatabaseKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatabaseKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "DatabaseKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Trip",
+        "printedName": "Trip",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "_id",
+            "printedName": "_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObjectId",
+                "printedName": "RealmSwift.ObjectId",
+                "usr": "c:@M@RealmSwift@objc(cs)RealmSwiftObjectId"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit4TripC3_id10RealmSwift8ObjectIdCvp",
+            "mangledName": "$s11DatabaseKit4TripC3_id10RealmSwift8ObjectIdCvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectId",
+                    "printedName": "RealmSwift.ObjectId",
+                    "usr": "c:@M@RealmSwift@objc(cs)RealmSwiftObjectId"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC3_id10RealmSwift8ObjectIdCvg",
+                "mangledName": "$s11DatabaseKit4TripC3_id10RealmSwift8ObjectIdCvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectId",
+                    "printedName": "RealmSwift.ObjectId",
+                    "usr": "c:@M@RealmSwift@objc(cs)RealmSwiftObjectId"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC3_id10RealmSwift8ObjectIdCvs",
+                "mangledName": "$s11DatabaseKit4TripC3_id10RealmSwift8ObjectIdCvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC3_id10RealmSwift8ObjectIdCvM",
+                "mangledName": "$s11DatabaseKit4TripC3_id10RealmSwift8ObjectIdCvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSynced",
+            "printedName": "isSynced",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit4TripC8isSyncedSbvp",
+            "mangledName": "$s11DatabaseKit4TripC8isSyncedSbvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC8isSyncedSbvg",
+                "mangledName": "$s11DatabaseKit4TripC8isSyncedSbvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC8isSyncedSbvs",
+                "mangledName": "$s11DatabaseKit4TripC8isSyncedSbvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC8isSyncedSbvM",
+                "mangledName": "$s11DatabaseKit4TripC8isSyncedSbvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit4TripC6userIDSSvp",
+            "mangledName": "$s11DatabaseKit4TripC6userIDSSvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC6userIDSSvg",
+                "mangledName": "$s11DatabaseKit4TripC6userIDSSvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC6userIDSSvs",
+                "mangledName": "$s11DatabaseKit4TripC6userIDSSvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC6userIDSSvM",
+                "mangledName": "$s11DatabaseKit4TripC6userIDSSvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit4TripC4nameSSvp",
+            "mangledName": "$s11DatabaseKit4TripC4nameSSvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC4nameSSvg",
+                "mangledName": "$s11DatabaseKit4TripC4nameSSvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC4nameSSvs",
+                "mangledName": "$s11DatabaseKit4TripC4nameSSvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC4nameSSvM",
+                "mangledName": "$s11DatabaseKit4TripC4nameSSvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit4TripC9createdAt10Foundation4DateVvp",
+            "mangledName": "$s11DatabaseKit4TripC9createdAt10Foundation4DateVvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC9createdAt10Foundation4DateVvg",
+                "mangledName": "$s11DatabaseKit4TripC9createdAt10Foundation4DateVvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC9createdAt10Foundation4DateVvs",
+                "mangledName": "$s11DatabaseKit4TripC9createdAt10Foundation4DateVvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit4TripC9createdAt10Foundation4DateVvM",
+                "mangledName": "$s11DatabaseKit4TripC9createdAt10Foundation4DateVvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Trip",
+                "printedName": "DatabaseKit.Trip",
+                "usr": "c:@M@DatabaseKit@objc(cs)Trip"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DatabaseKit@objc(cs)Trip(im)init",
+            "mangledName": "$s11DatabaseKit4TripCACycfc",
+            "moduleName": "DatabaseKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DatabaseKit@objc(cs)Trip",
+        "mangledName": "$s11DatabaseKit4TripC",
+        "moduleName": "DatabaseKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)RealmSwiftObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Realm.RealmSwiftObject",
+          "Realm.RLMObjectBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObjectKeyIdentifiable",
+            "printedName": "ObjectKeyIdentifiable",
+            "usr": "s:10RealmSwift21ObjectKeyIdentifiableP",
+            "mangledName": "$s10RealmSwift21ObjectKeyIdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmSubscribable",
+            "printedName": "RealmSubscribable",
+            "usr": "s:10RealmSwift0A12SubscribableP",
+            "mangledName": "$s10RealmSwift0A12SubscribableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjcBridgeable",
+            "printedName": "_ObjcBridgeable",
+            "usr": "s:10RealmSwift15_ObjcBridgeableP",
+            "mangledName": "$s10RealmSwift15_ObjcBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KeypathSortable",
+            "printedName": "KeypathSortable",
+            "usr": "s:10RealmSwift15KeypathSortableP",
+            "mangledName": "$s10RealmSwift15KeypathSortableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WillChange",
+                    "printedName": "RealmSwift.RealmPublishers.WillChange<Realm.RealmSwiftObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RealmSwiftObject",
+                        "printedName": "Realm.RealmSwiftObject",
+                        "usr": "c:objc(cs)RealmSwiftObject"
+                      }
+                    ],
+                    "usr": "s:10RealmSwift0A10PublishersO10WillChangeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PersistableInsideOptional",
+            "printedName": "_PersistableInsideOptional",
+            "usr": "s:10RealmSwift26_PersistableInsideOptionalP",
+            "mangledName": "$s10RealmSwift26_PersistableInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_DefaultConstructible",
+            "printedName": "_DefaultConstructible",
+            "usr": "s:10RealmSwift21_DefaultConstructibleP",
+            "mangledName": "$s10RealmSwift21_DefaultConstructibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmSchemaDiscoverable",
+            "printedName": "_RealmSchemaDiscoverable",
+            "usr": "s:10RealmSwift01_A18SchemaDiscoverableP",
+            "mangledName": "$s10RealmSwift01_A18SchemaDiscoverableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_Persistable",
+            "printedName": "_Persistable",
+            "usr": "s:10RealmSwift12_PersistableP",
+            "mangledName": "$s10RealmSwift12_PersistableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasPersistedType",
+            "printedName": "_HasPersistedType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "PersistedType",
+                "printedName": "PersistedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RealmSwiftObject",
+                    "printedName": "Realm.RealmSwiftObject",
+                    "usr": "c:objc(cs)RealmSwiftObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10RealmSwift17_HasPersistedTypeP",
+            "mangledName": "$s10RealmSwift17_HasPersistedTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmCollectionValueInsideOptional",
+            "printedName": "_RealmCollectionValueInsideOptional",
+            "usr": "s:10RealmSwift01_A29CollectionValueInsideOptionalP",
+            "mangledName": "$s10RealmSwift01_A29CollectionValueInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmCollectionValue",
+            "printedName": "RealmCollectionValue",
+            "usr": "s:10RealmSwift0A15CollectionValueP",
+            "mangledName": "$s10RealmSwift0A15CollectionValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ThreadConfined",
+            "printedName": "ThreadConfined",
+            "usr": "s:10RealmSwift14ThreadConfinedP",
+            "mangledName": "$s10RealmSwift14ThreadConfinedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmFetchable",
+            "printedName": "RealmFetchable",
+            "usr": "s:10RealmSwift0A9FetchableP",
+            "mangledName": "$s10RealmSwift0A9FetchableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObservedResultsValue",
+            "printedName": "_ObservedResultsValue",
+            "usr": "s:10RealmSwift21_ObservedResultsValueP",
+            "mangledName": "$s10RealmSwift21_ObservedResultsValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DatabaseKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "RealmSwift",
+        "printedName": "RealmSwift",
+        "declKind": "Import",
+        "moduleName": "DatabaseKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Location",
+        "printedName": "Location",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "_id",
+            "printedName": "_id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ObjectId",
+                "printedName": "RealmSwift.ObjectId",
+                "usr": "c:@M@RealmSwift@objc(cs)RealmSwiftObjectId"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC3_id10RealmSwift8ObjectIdCvp",
+            "mangledName": "$s11DatabaseKit8LocationC3_id10RealmSwift8ObjectIdCvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectId",
+                    "printedName": "RealmSwift.ObjectId",
+                    "usr": "c:@M@RealmSwift@objc(cs)RealmSwiftObjectId"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC3_id10RealmSwift8ObjectIdCvg",
+                "mangledName": "$s11DatabaseKit8LocationC3_id10RealmSwift8ObjectIdCvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObjectId",
+                    "printedName": "RealmSwift.ObjectId",
+                    "usr": "c:@M@RealmSwift@objc(cs)RealmSwiftObjectId"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC3_id10RealmSwift8ObjectIdCvs",
+                "mangledName": "$s11DatabaseKit8LocationC3_id10RealmSwift8ObjectIdCvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC3_id10RealmSwift8ObjectIdCvM",
+                "mangledName": "$s11DatabaseKit8LocationC3_id10RealmSwift8ObjectIdCvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSynced",
+            "printedName": "isSynced",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC8isSyncedSbvp",
+            "mangledName": "$s11DatabaseKit8LocationC8isSyncedSbvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8isSyncedSbvg",
+                "mangledName": "$s11DatabaseKit8LocationC8isSyncedSbvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8isSyncedSbvs",
+                "mangledName": "$s11DatabaseKit8LocationC8isSyncedSbvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8isSyncedSbvM",
+                "mangledName": "$s11DatabaseKit8LocationC8isSyncedSbvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activityTime",
+            "printedName": "activityTime",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC12activityTimeSdvp",
+            "mangledName": "$s11DatabaseKit8LocationC12activityTimeSdvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC12activityTimeSdvg",
+                "mangledName": "$s11DatabaseKit8LocationC12activityTimeSdvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC12activityTimeSdvs",
+                "mangledName": "$s11DatabaseKit8LocationC12activityTimeSdvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC12activityTimeSdvM",
+                "mangledName": "$s11DatabaseKit8LocationC12activityTimeSdvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activityType",
+            "printedName": "activityType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC12activityTypeSSvp",
+            "mangledName": "$s11DatabaseKit8LocationC12activityTypeSSvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC12activityTypeSSvg",
+                "mangledName": "$s11DatabaseKit8LocationC12activityTypeSSvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC12activityTypeSSvs",
+                "mangledName": "$s11DatabaseKit8LocationC12activityTypeSSvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC12activityTypeSSvM",
+                "mangledName": "$s11DatabaseKit8LocationC12activityTypeSSvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "altitude",
+            "printedName": "altitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC8altitudeSdvp",
+            "mangledName": "$s11DatabaseKit8LocationC8altitudeSdvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8altitudeSdvg",
+                "mangledName": "$s11DatabaseKit8LocationC8altitudeSdvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8altitudeSdvs",
+                "mangledName": "$s11DatabaseKit8LocationC8altitudeSdvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8altitudeSdvM",
+                "mangledName": "$s11DatabaseKit8LocationC8altitudeSdvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "attribute",
+            "printedName": "attribute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC9attributeSSvp",
+            "mangledName": "$s11DatabaseKit8LocationC9attributeSSvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9attributeSSvg",
+                "mangledName": "$s11DatabaseKit8LocationC9attributeSSvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9attributeSSvs",
+                "mangledName": "$s11DatabaseKit8LocationC9attributeSSvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9attributeSSvM",
+                "mangledName": "$s11DatabaseKit8LocationC9attributeSSvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "batteryPercentage",
+            "printedName": "batteryPercentage",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC17batteryPercentages5Int16Vvp",
+            "mangledName": "$s11DatabaseKit8LocationC17batteryPercentages5Int16Vvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC17batteryPercentages5Int16Vvg",
+                "mangledName": "$s11DatabaseKit8LocationC17batteryPercentages5Int16Vvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC17batteryPercentages5Int16Vvs",
+                "mangledName": "$s11DatabaseKit8LocationC17batteryPercentages5Int16Vvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC17batteryPercentages5Int16VvM",
+                "mangledName": "$s11DatabaseKit8LocationC17batteryPercentages5Int16VvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "createdAt",
+            "printedName": "createdAt",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC9createdAt10Foundation4DateVvp",
+            "mangledName": "$s11DatabaseKit8LocationC9createdAt10Foundation4DateVvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9createdAt10Foundation4DateVvg",
+                "mangledName": "$s11DatabaseKit8LocationC9createdAt10Foundation4DateVvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9createdAt10Foundation4DateVvs",
+                "mangledName": "$s11DatabaseKit8LocationC9createdAt10Foundation4DateVvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9createdAt10Foundation4DateVvM",
+                "mangledName": "$s11DatabaseKit8LocationC9createdAt10Foundation4DateVvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "floor",
+            "printedName": "floor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC5floors5Int16Vvp",
+            "mangledName": "$s11DatabaseKit8LocationC5floors5Int16Vvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC5floors5Int16Vvg",
+                "mangledName": "$s11DatabaseKit8LocationC5floors5Int16Vvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC5floors5Int16Vvs",
+                "mangledName": "$s11DatabaseKit8LocationC5floors5Int16Vvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC5floors5Int16VvM",
+                "mangledName": "$s11DatabaseKit8LocationC5floors5Int16VvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "horizontalAccuracy",
+            "printedName": "horizontalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC18horizontalAccuracySdvp",
+            "mangledName": "$s11DatabaseKit8LocationC18horizontalAccuracySdvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC18horizontalAccuracySdvg",
+                "mangledName": "$s11DatabaseKit8LocationC18horizontalAccuracySdvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC18horizontalAccuracySdvs",
+                "mangledName": "$s11DatabaseKit8LocationC18horizontalAccuracySdvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC18horizontalAccuracySdvM",
+                "mangledName": "$s11DatabaseKit8LocationC18horizontalAccuracySdvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "latitude",
+            "printedName": "latitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC8latitudeSdvp",
+            "mangledName": "$s11DatabaseKit8LocationC8latitudeSdvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8latitudeSdvg",
+                "mangledName": "$s11DatabaseKit8LocationC8latitudeSdvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8latitudeSdvs",
+                "mangledName": "$s11DatabaseKit8LocationC8latitudeSdvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8latitudeSdvM",
+                "mangledName": "$s11DatabaseKit8LocationC8latitudeSdvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "longitude",
+            "printedName": "longitude",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC9longitudeSdvp",
+            "mangledName": "$s11DatabaseKit8LocationC9longitudeSdvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9longitudeSdvg",
+                "mangledName": "$s11DatabaseKit8LocationC9longitudeSdvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9longitudeSdvs",
+                "mangledName": "$s11DatabaseKit8LocationC9longitudeSdvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9longitudeSdvM",
+                "mangledName": "$s11DatabaseKit8LocationC9longitudeSdvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sourceInformation",
+            "printedName": "sourceInformation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC17sourceInformationSSvp",
+            "mangledName": "$s11DatabaseKit8LocationC17sourceInformationSSvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC17sourceInformationSSvg",
+                "mangledName": "$s11DatabaseKit8LocationC17sourceInformationSSvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC17sourceInformationSSvs",
+                "mangledName": "$s11DatabaseKit8LocationC17sourceInformationSSvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC17sourceInformationSSvM",
+                "mangledName": "$s11DatabaseKit8LocationC17sourceInformationSSvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "speed",
+            "printedName": "speed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC5speeds5Int16Vvp",
+            "mangledName": "$s11DatabaseKit8LocationC5speeds5Int16Vvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC5speeds5Int16Vvg",
+                "mangledName": "$s11DatabaseKit8LocationC5speeds5Int16Vvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC5speeds5Int16Vvs",
+                "mangledName": "$s11DatabaseKit8LocationC5speeds5Int16Vvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC5speeds5Int16VvM",
+                "mangledName": "$s11DatabaseKit8LocationC5speeds5Int16VvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "speedAccuracy",
+            "printedName": "speedAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC13speedAccuracys5Int16Vvp",
+            "mangledName": "$s11DatabaseKit8LocationC13speedAccuracys5Int16Vvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC13speedAccuracys5Int16Vvg",
+                "mangledName": "$s11DatabaseKit8LocationC13speedAccuracys5Int16Vvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC13speedAccuracys5Int16Vvs",
+                "mangledName": "$s11DatabaseKit8LocationC13speedAccuracys5Int16Vvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC13speedAccuracys5Int16VvM",
+                "mangledName": "$s11DatabaseKit8LocationC13speedAccuracys5Int16VvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC9timestamp10Foundation4DateVvp",
+            "mangledName": "$s11DatabaseKit8LocationC9timestamp10Foundation4DateVvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9timestamp10Foundation4DateVvg",
+                "mangledName": "$s11DatabaseKit8LocationC9timestamp10Foundation4DateVvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9timestamp10Foundation4DateVvs",
+                "mangledName": "$s11DatabaseKit8LocationC9timestamp10Foundation4DateVvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC9timestamp10Foundation4DateVvM",
+                "mangledName": "$s11DatabaseKit8LocationC9timestamp10Foundation4DateVvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timeZone",
+            "printedName": "timeZone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC8timeZoneSSvp",
+            "mangledName": "$s11DatabaseKit8LocationC8timeZoneSSvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8timeZoneSSvg",
+                "mangledName": "$s11DatabaseKit8LocationC8timeZoneSSvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8timeZoneSSvs",
+                "mangledName": "$s11DatabaseKit8LocationC8timeZoneSSvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC8timeZoneSSvM",
+                "mangledName": "$s11DatabaseKit8LocationC8timeZoneSSvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "tripId",
+            "printedName": "tripId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC6tripIdSSvp",
+            "mangledName": "$s11DatabaseKit8LocationC6tripIdSSvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC6tripIdSSvg",
+                "mangledName": "$s11DatabaseKit8LocationC6tripIdSSvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC6tripIdSSvs",
+                "mangledName": "$s11DatabaseKit8LocationC6tripIdSSvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC6tripIdSSvM",
+                "mangledName": "$s11DatabaseKit8LocationC6tripIdSSvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userID",
+            "printedName": "userID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC6userIDSSvp",
+            "mangledName": "$s11DatabaseKit8LocationC6userIDSSvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC6userIDSSvg",
+                "mangledName": "$s11DatabaseKit8LocationC6userIDSSvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC6userIDSSvs",
+                "mangledName": "$s11DatabaseKit8LocationC6userIDSSvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC6userIDSSvM",
+                "mangledName": "$s11DatabaseKit8LocationC6userIDSSvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "verticalAccuracy",
+            "printedName": "verticalAccuracy",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int16",
+                "printedName": "Swift.Int16",
+                "usr": "s:s5Int16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DatabaseKit8LocationC16verticalAccuracys5Int16Vvp",
+            "mangledName": "$s11DatabaseKit8LocationC16verticalAccuracys5Int16Vvp",
+            "moduleName": "DatabaseKit",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC16verticalAccuracys5Int16Vvg",
+                "mangledName": "$s11DatabaseKit8LocationC16verticalAccuracys5Int16Vvg",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int16",
+                    "printedName": "Swift.Int16",
+                    "usr": "s:s5Int16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC16verticalAccuracys5Int16Vvs",
+                "mangledName": "$s11DatabaseKit8LocationC16verticalAccuracys5Int16Vvs",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DatabaseKit8LocationC16verticalAccuracys5Int16VvM",
+                "mangledName": "$s11DatabaseKit8LocationC16verticalAccuracys5Int16VvM",
+                "moduleName": "DatabaseKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Location",
+                "printedName": "DatabaseKit.Location",
+                "usr": "c:@M@DatabaseKit@objc(cs)Location"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DatabaseKit@objc(cs)Location(im)init",
+            "mangledName": "$s11DatabaseKit8LocationCACycfc",
+            "moduleName": "DatabaseKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DatabaseKit@objc(cs)Location",
+        "mangledName": "$s11DatabaseKit8LocationC",
+        "moduleName": "DatabaseKit",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)RealmSwiftObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "Realm.RealmSwiftObject",
+          "Realm.RLMObjectBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObjectKeyIdentifiable",
+            "printedName": "ObjectKeyIdentifiable",
+            "usr": "s:10RealmSwift21ObjectKeyIdentifiableP",
+            "mangledName": "$s10RealmSwift21ObjectKeyIdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmSubscribable",
+            "printedName": "RealmSubscribable",
+            "usr": "s:10RealmSwift0A12SubscribableP",
+            "mangledName": "$s10RealmSwift0A12SubscribableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjcBridgeable",
+            "printedName": "_ObjcBridgeable",
+            "usr": "s:10RealmSwift15_ObjcBridgeableP",
+            "mangledName": "$s10RealmSwift15_ObjcBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "KeypathSortable",
+            "printedName": "KeypathSortable",
+            "usr": "s:10RealmSwift15KeypathSortableP",
+            "mangledName": "$s10RealmSwift15KeypathSortableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WillChange",
+                    "printedName": "RealmSwift.RealmPublishers.WillChange<Realm.RealmSwiftObject>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RealmSwiftObject",
+                        "printedName": "Realm.RealmSwiftObject",
+                        "usr": "c:objc(cs)RealmSwiftObject"
+                      }
+                    ],
+                    "usr": "s:10RealmSwift0A10PublishersO10WillChangeV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_PersistableInsideOptional",
+            "printedName": "_PersistableInsideOptional",
+            "usr": "s:10RealmSwift26_PersistableInsideOptionalP",
+            "mangledName": "$s10RealmSwift26_PersistableInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_DefaultConstructible",
+            "printedName": "_DefaultConstructible",
+            "usr": "s:10RealmSwift21_DefaultConstructibleP",
+            "mangledName": "$s10RealmSwift21_DefaultConstructibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmSchemaDiscoverable",
+            "printedName": "_RealmSchemaDiscoverable",
+            "usr": "s:10RealmSwift01_A18SchemaDiscoverableP",
+            "mangledName": "$s10RealmSwift01_A18SchemaDiscoverableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_Persistable",
+            "printedName": "_Persistable",
+            "usr": "s:10RealmSwift12_PersistableP",
+            "mangledName": "$s10RealmSwift12_PersistableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasPersistedType",
+            "printedName": "_HasPersistedType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "PersistedType",
+                "printedName": "PersistedType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RealmSwiftObject",
+                    "printedName": "Realm.RealmSwiftObject",
+                    "usr": "c:objc(cs)RealmSwiftObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10RealmSwift17_HasPersistedTypeP",
+            "mangledName": "$s10RealmSwift17_HasPersistedTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_RealmCollectionValueInsideOptional",
+            "printedName": "_RealmCollectionValueInsideOptional",
+            "usr": "s:10RealmSwift01_A29CollectionValueInsideOptionalP",
+            "mangledName": "$s10RealmSwift01_A29CollectionValueInsideOptionalP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmCollectionValue",
+            "printedName": "RealmCollectionValue",
+            "usr": "s:10RealmSwift0A15CollectionValueP",
+            "mangledName": "$s10RealmSwift0A15CollectionValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ThreadConfined",
+            "printedName": "ThreadConfined",
+            "usr": "s:10RealmSwift14ThreadConfinedP",
+            "mangledName": "$s10RealmSwift14ThreadConfinedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RealmFetchable",
+            "printedName": "RealmFetchable",
+            "usr": "s:10RealmSwift0A9FetchableP",
+            "mangledName": "$s10RealmSwift0A9FetchableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObservedResultsValue",
+            "printedName": "_ObservedResultsValue",
+            "usr": "s:10RealmSwift21_ObservedResultsValueP",
+            "mangledName": "$s10RealmSwift21_ObservedResultsValueP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/divya\/Desktop\/TSDK\/DatabaseKit\/DatabaseKit\/Source\/Database\/Model\/Trip.swift",
+      "kind": "BooleanLiteral",
+      "offset": 190,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/divya\/Desktop\/TSDK\/DatabaseKit\/DatabaseKit\/Source\/Database\/Model\/Trip.swift",
+      "kind": "BooleanLiteral",
+      "offset": 264,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/divya\/Desktop\/TSDK\/DatabaseKit\/DatabaseKit\/Source\/Database\/Model\/Trip.swift",
+      "kind": "StringLiteral",
+      "offset": 313,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/divya\/Desktop\/TSDK\/DatabaseKit\/DatabaseKit\/Source\/Database\/Model\/Trip.swift",
+      "kind": "StringLiteral",
+      "offset": 357,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/divya\/Desktop\/TSDK\/DatabaseKit\/DatabaseKit\/Source\/Database\/Model\/Location.swift",
+      "kind": "BooleanLiteral",
+      "offset": 198,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/divya\/Desktop\/TSDK\/DatabaseKit\/DatabaseKit\/Source\/Database\/Model\/Location.swift",
+      "kind": "BooleanLiteral",
+      "offset": 272,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

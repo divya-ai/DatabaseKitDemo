@@ -4,3 +4,8 @@ framework module DatabaseKit {
   export *
   module * { export * }
 }
+
+module DatabaseKit.Swift {
+  header "DatabaseKit-Swift.h"
+  requires objc
+}

@@ -1,0 +1,156 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios16.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DatabaseKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import DatabaseKit
+import Foundation
+import RealmSwift
+import Swift
+import _Concurrency
+import _StringProcessing
+@_hasMissingDesignatedInitializers public class DatabaseManager {
+  public static let shared: DatabaseKit.DatabaseManager
+  public func addObject<T>(_ object: T) where T : Realm.RealmSwiftObject
+  public func getObjectByID<T>(_ objectType: T.Type, id: Swift.String) -> T? where T : Realm.RealmSwiftObject
+  public func getAllObjects<T>(_ objectType: T.Type) -> RealmSwift.Results<T>? where T : Realm.RealmSwiftObject
+  public func removeAllObjects<T>(_ objectType: T.Type) where T : Realm.RealmSwiftObject
+  public func deleteAllObjects<T>(_ objectType: T.Type) where T : Realm.RealmSwiftObject
+  public func deleteObjects<T>(_ objectType: T.Type, where predicate: Foundation.NSPredicate) where T : Realm.RealmSwiftObject
+  public func deleteObjectByID<T>(_ objectType: T.Type, id: Swift.String) where T : Realm.RealmSwiftObject
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Trip : RealmSwift.Object, RealmSwift.ObjectKeyIdentifiable {
+  @RealmSwift.Persisted public var _id: RealmSwift.ObjectId {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var isSynced: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var userID: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var name: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var createdAt: Foundation.Date {
+    get
+    set
+    _modify
+  }
+  @objc override dynamic public init()
+  public typealias ID = Swift.UInt64
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class Location : RealmSwift.Object, RealmSwift.ObjectKeyIdentifiable {
+  @RealmSwift.Persisted public var _id: RealmSwift.ObjectId {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var isSynced: Swift.Bool {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var activityTime: Swift.Double {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var activityType: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var altitude: Swift.Double {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var attribute: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var batteryPercentage: Swift.Int16 {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var createdAt: Foundation.Date {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var floor: Swift.Int16 {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var horizontalAccuracy: Swift.Double {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var latitude: Swift.Double {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var longitude: Swift.Double {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var sourceInformation: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var speed: Swift.Int16 {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var speedAccuracy: Swift.Int16 {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var timestamp: Foundation.Date {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var timeZone: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var tripId: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var userID: Swift.String {
+    get
+    set
+    _modify
+  }
+  @RealmSwift.Persisted public var verticalAccuracy: Swift.Int16 {
+    get
+    set
+    _modify
+  }
+  @objc override dynamic public init()
+  public typealias ID = Swift.UInt64
+  @objc deinit
+}

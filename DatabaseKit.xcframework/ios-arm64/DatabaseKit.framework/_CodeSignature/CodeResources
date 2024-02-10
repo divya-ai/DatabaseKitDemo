@@ -4,17 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Database/DatabaseManager/DatabaseManager.swift</key>
+		<key>Headers/DatabaseKit-Swift.h</key>
 		<data>
-		+gO5jC/TN8Y+tKQ0fH1mSrbUWCA=
-		</data>
-		<key>Database/Model/Location.swift</key>
-		<data>
-		I+DKNqX06m0Em+XkuQZEr9+7xuY=
-		</data>
-		<key>Database/Model/Trip.swift</key>
-		<data>
-		vhPfee2kbCAveYBk7ejKvtnq/3k=
+		CjEvi6D2e2mkDbzULdP+BVIEmBM=
 		</data>
 		<key>Headers/DatabaseKit.h</key>
 		<data>
@@ -24,32 +16,38 @@
 		<data>
 		dBMVndi1AtE1KBnv+9oAQ9gfB/4=
 		</data>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		WJOCBhOMCS2o21i+LsyTAAxns8s=
+		</data>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		DR+eOsnTYJXi5yrCp1+WVXNxDLE=
+		</data>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		6EkPQEDPQEssCDpA0Ym4nE26RLc=
+		</data>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		DR+eOsnTYJXi5yrCp1+WVXNxDLE=
+		</data>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		fPVbTXvo1c2rPhJY3BR+JYrkJJA=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		88h+v+qEhgclLURBFcQKcouczAA=
+		JNnNkg/NBdk9O+qipW4xW0u4dUU=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Database/DatabaseManager/DatabaseManager.swift</key>
+		<key>Headers/DatabaseKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			75eG0B2YPLswfyRvDwBjpmtNGKGmqtVWxxze6+xsuSc=
-			</data>
-		</dict>
-		<key>Database/Model/Location.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UPo2if2FiqrEYWaUVuCID81a2ehzhFWUSGSvlDI2xE8=
-			</data>
-		</dict>
-		<key>Database/Model/Trip.swift</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1y7YZKAibcJxcOryArcXjH3sCP/g93mN3BrufhCQscA=
+			Z+ady8RhXO6RHb+bosFDCE9/mVgqht4Dd2PvlUWHAdo=
 			</data>
 		</dict>
 		<key>Headers/DatabaseKit.h</key>
@@ -59,11 +57,46 @@
 			ly264394m9XgcwnxiQrmqpHKzLYggsTtCGpCFxkL7QU=
 			</data>
 		</dict>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FHbuNXit5ssXhMXYk611xnarBNkdAgYyR/0psHO2JvI=
+			</data>
+		</dict>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UxilJRhC4VYD4hEKpC5zK3JgRRQk8uvnsf/N35LBNE0=
+			</data>
+		</dict>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			84mJiODYHY96s09pnzacQyyqNhJLBXeTPN6Gw1Qzgp4=
+			</data>
+		</dict>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UxilJRhC4VYD4hEKpC5zK3JgRRQk8uvnsf/N35LBNE0=
+			</data>
+		</dict>
+		<key>Modules/DatabaseKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FDBQDwbv3v+eUlSPFG1vQdNHSw12PHoCgeadSwFdwew=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hKHXA+8fonq4JchSucEwBIBl81A0+IzuiilBk9CLAPs=
+			ImGNUCuCXA9PkPhqvA9Lm6XDQ/vGt8ekVNqK9ef4X7A=
 			</data>
 		</dict>
 	</dict>
