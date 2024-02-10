@@ -26,7 +26,7 @@ let package = Package(
         .binaryTarget(
             name: "DatabaseKit",
             url: "https://github.com/divya-ai/DatabaseKitDemo/tree/main/DatabaseKit.xcframework.zip", // Update with the URL or relative path to your .xcframework
-            checksum: "1564e17bf0d131b673d9bab4cd5d773d25d68f05c6c57c854826e7b0a1defa20" // Update with the checksum of your .xcframework
+            checksum: "b35bf7f08d94b1b9b5234f07325c4c1ad81fdd050475e86f5d477ca61378b2d2" // Update with the checksum of your .xcframework
         )
     ]
 )
